@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Sound
 Source0:	http://www.johnath.com/beep/%{name}-%{version}.tar.gz
+# Source0-md5:	d541419fd7e5642952d7b48cbb40c712
 URL:		http://johnath.com/beep/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
