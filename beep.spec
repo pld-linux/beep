@@ -32,7 +32,9 @@ systemu (czy cokolwiek, do czego zostanie u¿yty).
 %setup -q
 
 %build
-%{__make}
+%{__make} \
+	CC="%{__cc}" \
+	FLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -46,5 +48,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc CHANGELOG CREDITS README
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man*/*
