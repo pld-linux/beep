@@ -1,5 +1,5 @@
 Summary:	Beeps the PC speaker controlling frequency, duration, repetitions, etc.
-Summary(pl.UTF-8):   Piszczy na głośniczku PC kontrolując częstotliwość, długość, powtórzenia itp.
+Summary(pl.UTF-8):	Piszczy na głośniczku PC kontrolując częstotliwość, długość, powtórzenia itp.
 Name:		beep
 Version:	1.2.2
 Release:	1
