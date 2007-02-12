@@ -1,5 +1,5 @@
 Summary:	Beeps the PC speaker controlling frequency, duration, repetitions, etc.
-Summary(pl):	Piszczy na g³o¶niczku PC kontroluj±c czêstotliwo¶æ, d³ugo¶æ, powtórzenia itp.
+Summary(pl.UTF-8):   Piszczy na gÅ‚oÅ›niczku PC kontrolujÄ…c czÄ™stotliwoÅ›Ä‡, dÅ‚ugoÅ›Ä‡, powtÃ³rzenia itp.
 Name:		beep
 Version:	1.2.2
 Release:	1
@@ -19,14 +19,14 @@ It's not supposed to be complex, and it isn't - but it makes system
 monitoring (or whatever else it gets hacked onto) that much more
 informative.
 
-%description -l pl
-beep robi to, czego mo¿na siê spodziewaæ: piszczy. Ale w
-przeciwieñstwie do printf("\a"), pozwala kontrolowaæ wysoko¶æ d¼wiêku,
-czas trwania i powtórzenia. Jego zadaniem jest ¿yæ w skryptach Perla
-lub pow³oki i pozwalaæ na wiêcej, ni¿ mo¿na zrobiæ bez niego.
-Programem w ca³o¶ci steruje siê z linii poleceñ. Nie ma on byæ
+%description -l pl.UTF-8
+beep robi to, czego moÅ¼na siÄ™ spodziewaÄ‡: piszczy. Ale w
+przeciwieÅ„stwie do printf("\a"), pozwala kontrolowaÄ‡ wysokoÅ›Ä‡ dÅºwiÄ™ku,
+czas trwania i powtÃ³rzenia. Jego zadaniem jest Å¼yÄ‡ w skryptach Perla
+lub powÅ‚oki i pozwalaÄ‡ na wiÄ™cej, niÅ¼ moÅ¼na zrobiÄ‡ bez niego.
+Programem w caÅ‚oÅ›ci steruje siÄ™ z linii poleceÅ„. Nie ma on byÄ‡
 skomplikowany - ale pozwala na bardziej informacyjne monitorowanie
-systemu (czy cokolwiek, do czego zostanie u¿yty).
+systemu (czy cokolwiek, do czego zostanie uÅ¼yty).
 
 %prep
 %setup -q
