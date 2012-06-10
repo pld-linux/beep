@@ -1,12 +1,12 @@
 Summary:	Beeps the PC speaker controlling frequency, duration, repetitions, etc.
 Summary(pl.UTF-8):	Piszczy na głośniczku PC kontrolując częstotliwość, długość, powtórzenia itp.
 Name:		beep
-Version:	1.2.2
+Version:	1.3
 Release:	1
 License:	GPL
 Group:		Applications/Sound
 Source0:	http://www.johnath.com/beep/%{name}-%{version}.tar.gz
-# Source0-md5:	d541419fd7e5642952d7b48cbb40c712
+# Source0-md5:	49c340ceb95dbda3f97b2daafac7892a
 URL:		http://johnath.com/beep/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
